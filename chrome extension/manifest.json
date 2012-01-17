@@ -1,0 +1,23 @@
+﻿{
+   "content_scripts": [ {
+	  "js": ["scripts/plugin.jquery.min.js", "scripts/plugin.rangy.min.js", "scripts/feltipen.contentScript.js" ],
+      "all_frames": true,
+	  "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Highlighter for Web Pages",
+   "icons": {
+      "128": "images/feltipen-yellow-128.png",
+      "48": "images/feltipen-yellow-48.png",
+      "16": "images/feltipen-yellow-16.png"
+   },
+   "browser_action": {
+    "default_icon": "images/feltipen-yellow-16.png",
+    "default_title": "Feltipen - Highlighter for Web Pages",     
+    "default_popup": "views/feltipen_popup.html"
+  },
+   "background_page": "views/feltipen_bg.html",
+   "name": "Feltipen",
+   "permissions": [ "http://feltipen.com/*", "contextMenus", "tabs", "unlimitedStorage" ],
+   "update_url": "http://feltipen.com/chrome/update.xml",
+   "version": "0.0.5"
+}

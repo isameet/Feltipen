@@ -1,0 +1,12 @@
+﻿body { width: 160px; color: #000; font: 12px/20px Helvetica,arial,sans-serif; padding: 3px; margin: 0; } 
+
+ul { padding:0;margin:0; }
+ul li{ list-style:none; height:20px; margin-bottom: 7px; }
+ul li:last-child{ margin-bottom: 4px; }
+
+ul li { cursor: pointer; color:#303030; text-decoration:none; display: block; border-radius: 4px; padding: 2px; }
+ul li:hover { background-color: #eceff5; color: #000; }
+
+hr { border: 0; border-top: 1px dotted #c1c1c1; }
+
+li span { float:left; width:20px; height:20px; margin-right:5px; }
